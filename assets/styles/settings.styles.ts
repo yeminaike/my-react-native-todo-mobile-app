@@ -55,9 +55,13 @@ export const createSettingsStyles = (colors: ColorScheme) => {
     sectionTitle: {
       fontSize: 20,
       fontWeight: "700",
-      marginBottom: 20,
+       marginBottom: 20,
       letterSpacing: -0.5,
       color: colors.text,
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center'
+
     },
     sectionTitleDanger: {
       fontSize: 20,
